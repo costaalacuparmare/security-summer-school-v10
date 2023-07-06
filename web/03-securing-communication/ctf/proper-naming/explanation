@@ -1,0 +1,2 @@
+add the ip from the site in the /etc/hosts file (141.85.224.117) coresponding to the "smokey.burger.com"
+name. Afterwards, connect to smokey.burger.com:3280 (specify the port) and there it is
