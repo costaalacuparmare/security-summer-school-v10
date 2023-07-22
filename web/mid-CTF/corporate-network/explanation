@@ -1,0 +1,10 @@
+
+Use the web to search for the first private ip and add it in the http header for selecting the ip
+with which you access a web page. It will tell you to use Yandex and using the browser description
+in the user agent header will redirect you to the flag
+
+The command in question:
+
+curl -H 'X-Forwarded-For: 192.168.0.1' -H 'User Agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.148 YaBrowser/22.7.2.899 Yowser/2.5 Safari/537.36' 'http://141.85.224.106:8080/'
+
+It doesn't work yet

@@ -266,6 +266,16 @@ Tools:
 - [burp](https://portswigger.net/burp)
 - [dirb](https://www.kali.org/tools/dirb/)
 
+```
+dirb <ip-address> <known-extensions-file.txt>
+```
+
+DVWA - web container used to train for vulnerabilities
+
+```
+docker run --rm -it -p 80:80 vulnerables/web-dvwa
+```
+
 Resources:
 - [Shodan](https://www.shodan.io/)
 - [Shodan Guide](https://www.safetydetectives.com/blog/what-is-shodan-and-how-to-use-it-most-effectively/)

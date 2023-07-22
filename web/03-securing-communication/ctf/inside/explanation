@@ -1,0 +1,3 @@
+the webiste says try secure and then u try the command
+openssl s_client -showcerts -connect 141.85.224.117:33443
+afterwars u find a website that self signed and u get the flag from their certs

@@ -1,0 +1,3 @@
+Use inspect to add max chars in a field and manual writing the payload or
+http://ctf-05.security.cs.pub.ro:8080/?field1=%3Cscript%3Ealert(1)%3C/script%3E
+get it from the link

@@ -1,0 +1,3 @@
+The fields are data parameters follow how chars are concatened and add alarm script:
+
+<script>alert(document.cookie)</script>

