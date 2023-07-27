@@ -1,0 +1,17 @@
+
+Inspect the source page and see this comment: `<!-- TODO: Remove source.phar -->`.
+
+Request the resource `/source.bak` and download the file. Inspect its contents.
+
+You notice that you have to find an username and a password that are not equal
+(in the context of PHP loose comparison) but their sha256 hashes are the same, meaning
+same number, different data types.
+
+We can pass the parameters as arrays and make one of the values a string,
+and the other the integer equivalent.
+
+A possible payload in POST data is:
+
+`username[]="2"&password[]=2&submit=Login`
+
+

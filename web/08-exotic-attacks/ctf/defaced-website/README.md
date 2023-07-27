@@ -1,10 +1,3 @@
-# Name: Web: Exotic Attacks: Defaced Website
-
-## Vulnerability
-
-Source code disclosure + loose comparison in PHP
-
-## Exploit
 
 Inspect the requests made when accessing the website.
 

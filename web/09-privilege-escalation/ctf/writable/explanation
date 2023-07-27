@@ -1,0 +1,2 @@
+After connecting to the shell, you notice that the passwd file is modifiable by others, and
+you create an user that has root privilegies. The flag is in /root
