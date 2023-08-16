@@ -1,0 +1,2 @@
+apache spark gasesti pe site-ul lor un repo cu expoit.py, creezi un miniserver si treci prin el un
+request si primesti ca payload flagul (dupa ce cmd e modificat cu un curl

@@ -291,4 +291,40 @@ Bug Bounty Program Lists:
 - [List 2](https://www.bugcrowd.com/bug-bounty-list/)
 - [List 3](https://hackerone.com/bug-bounty-programs)
 
-# Session 07
+# Session 07 - Framework & APIs' vulnerabilities ([course](https://security-summer-school.github.io/web/framework-api-vulnerabilities/))
+
+Application programming interfaces (APIs):
+
+- Broken Object Level Auth: can request information from an API endpoint
+- Broken Authentication: dictionary/ brute force attacks allowed
+- Excessive Data Exposure: An user can access lists of other items not needed for his access
+- Lack of Resources & Rate Limiting: DoS attacks and endpoint outages (make too many requests)
+- Broken Function Level Authorization: find endpoints that are vulnerable to requests (by modifying he sent data)
+- Mass Assignment: update information that should not be accessed by showing the request with the information
+- Security Misconfiguration: Using known systems without updates and being already cracked online (on Shodan)
+- Injection: SQli, XSS, etc, but used like: "WAITFOR DELAY '0:0:5'-" therefore detecting a vulnerability
+- Improper Assets Management: Access to undeleted previous APIs versions
+- Insufficient Logging & Monitoring: Attacks slip away for as much as 200 days
+
+Framework = software designed to ease the development of web applications (DB access, input filtering, auth, session handling, templates)
+
+There are several different types of web application frameworks:
+* General purpose website frameworks (Ruby On Rails, ExpressJS, Django, Flask)
+* Discussion forums, wikis and weblogs (WikiBase/WikiWikiWeb)
+* Organizational portals (JBoss Portal)
+* Content Management Systems (CMS) (Joomla, Drupal, Wordpress)
+
+Frameworks and the vulnerabilities:
+
+- [Laravel](https://customerthink.com/what-makes-laravel-the-most-preferred-php-framework-for-web-development/): 2019 SQL Injection detected; vulnerable versions: Laravel 5.6/5.7/5.8 w/ Laravel-query-builder < v1.17.1 and 5.5 w/ query-builder < v1.16.1
+- Drupal: 2018 Patch for form rendering that could execute code sent in the image field [POC] (https://github.com/a2u/CVE-2018-7600/blob/master/exploit.py); vulnerable versions: Drupal < 8.3.9 / < 8.4.6 / < 8.5.1 /< 7.58
+- WordPress: CVE-2018-6389 (DoS): [expoit live](https://www.youtube.com/watch?v=nNDsGTalXS0&feature=youtu.be)
+
+DVWP - [Damn Vulnerable WordPress] (https://github.com/vavkamil/dvwp)
+
+Tools:
+- [WPScan](https://wpscan.com/wordpress-security-scanner)
+- [BuiltWith](https://builtwith.com/)
+- [Wappalyzer](https://www.wappalyzer.com/)
+
+# Session 8: Exotic Attacks ([course](https://security-summer-school.github.io/web/exotic-attacks/))

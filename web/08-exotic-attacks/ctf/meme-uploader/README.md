@@ -1,10 +1,3 @@
-# Name: Web: Exotic Attacks: Meme Uploader
-
-## Vulnerability
-
-Unrestricted file upload
-
-## Exploit
 
 You can upload basically any file, the server only checks its size and if there already exists a file with the same name.
 
@@ -22,5 +15,3 @@ The succes message: `Your file 5c7dce216dceb5c1a61108e9db9fa835.php has been upl
 Now navigate to: `/uploads/5c7dce216dceb5c1a61108e9db9fa835.php`.
 
 The flag should be in the page source (inspect it).
-
-Exploit in `../sol/solution.sh`.
