@@ -1,0 +1,1 @@
+use mount to write files on disk and insert a reverse shell 4 chars at a time

@@ -1,3 +1,3 @@
 # security-summer-school-v10
-Private repo of web security essentials
-Hai sa vedem!!!
+
+Repo used for Security Summer School 2023

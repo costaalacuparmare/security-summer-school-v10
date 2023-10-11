@@ -1,7 +1,0 @@
-b main
-exit
-b main
-r
-n
-r < input
-exit
